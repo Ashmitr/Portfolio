@@ -1,0 +1,74 @@
+h2{
+     color:darkorange;
+
+    
+ }   
+
+
+
+ .games{
+
+display: flex;
+flex-wrap: wrap;
+
+justify-content: space-evenly;
+ }
+
+ .footer{
+
+    display:flex;
+    flex-wrap: wrap;
+
+    justify-content: flex-end;
+ }
+
+ body{
+
+ 
+
+   font-size:medium;
+   font-style: italic;
+
+ }
+
+ a:link{
+
+  color:darkgreen;
+ }
+
+ a:visited{
+   color:brown ;
+ }
+
+
+.game{
+
+position: relative;
+
+}
+
+.game h2 {
+
+position : absolute;
+
+top : 50%;
+left : 50%;
+transform: translate(-50%,-50%);
+
+opacity: 0;
+
+}
+
+.game:hover h2{ 
+  opacity: 1;
+}
+
+.game img{
+
+  opacity : 0.2;
+}
+
+.game:hover img{
+
+  opacity : 1;
+}
